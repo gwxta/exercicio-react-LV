@@ -1,38 +1,165 @@
-.App {
+body {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  width: 250px;
+  padding-top: none;
   display: flex;
-  flex-direction: column;
+  
+  justify-content: space-between;
   align-items: center;
+}
+
+.navbar a {
+  display: flex;
+  color: rgb(247, 178, 31);
+  font-size: 25px;
+  text-align: center;
+  font-family: arial;
+  text-decoration: none;
+  margin-left: 20rem;
+}
+
+.navbar a:hover {
+  color: black;
+  font-size: 29px;
+}
+
+.logo-nav {
+  width: 150px;
+  margin: 2vh;
+}
+
+.lyric {
+  width: 400px;
+}
+
+.PW-1 {
+  width: 900px;
+}
+
+
+.PW-2 {
+  width: 900px;
+}
+
+#sec-1 {
+  text-align: center;
+  margin: 0vh 20vh 0vh 20vh;
+  margin-bottom: 10vh;
+}
+
+#sec-2 {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.looks {
+  width: 400px;
+  margin-right: 30px;
+  margin: 0vh 10vh 0vh 10vh;
+}
+
+.colecao-1 {
+  color: orange;
+  font-size: 30px;
+}
+
+.container1 {
+  padding: 4vh;
+  display: flex;
+}
+
+/* Aqui estou fazendo a parte de contato */
+
+.container {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-info {
+  display: flex;
+  flex-flow: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div-contact{
+  display: flex;
+  flex-flow: row;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#button.active {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+#button:hover {
+  background-color: #333;
+}
+
+.div-wpp {
+  width: 300px;
+  padding: 20px;
+  margin: 2vh;
+  border: #000 1px solid;
+  border-radius: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  margin: 0;
+  
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.button{
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
